@@ -1,5 +1,11 @@
 # What is NPM?
 
+NPM stands for Node Package Manager. It serves as a free package registry accessible to anyone, making it easier to share javascript packages with others. Users usually interact with NPM in two ways: as someone *downloading* a package and someone *publishing* a JavaScript package.
+
+## Sources
+
+[W3Schools](https://www.w3schools.com/whatis/whatis_npm.asp)
+
 # Understanding Node.js Modules
 
 ## What is a module?
@@ -36,6 +42,6 @@ We use the `./` here to locate the module because the module is located in the s
 
 [NodeJS](https://nodejs.org/en/knowledge/getting-started/what-is-require/)
 
-# Creating index.js and package.json?
+# Creating index.js and package.json
 
-# Publishing and Installing?
+# Publishing and Installing
