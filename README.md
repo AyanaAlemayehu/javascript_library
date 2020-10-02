@@ -45,3 +45,16 @@ We use the `./` here to locate the module because the module is located in the s
 # Creating index.js and package.json
 
 # Publishing and Installing
+
+## Authentication
+In order to publish a javascript package using NPM you need to first authenticate your NPM account in the command line. You can do this by using the command `npm login` which will prompt you for your login credentials. To test that you have successfully completed the authenticaiton you can use the command `npm whoami` and the command line should return your username if you have successfully logged in.
+
+## Publishing
+Once you have completed the authentication, in order to publish your package using NPM simply type the command `npm publish` into your command line.
+Note: make sure you are in the correct directory and that you are using or rename your package a unique name because the publishing will not work if there is a package with an identicle name already on NPM.
+
+## Installing
+In order to install an existing package available through NPM simply create a new directory you want to house your files, use the command `npm init` and specify the details of the package you are creating, and then type the command `npm install package_name --save`. To see that you have properly installed the package use the `ls` command and the package name should be listed in the directory contents.
+
+## Sources
+Used [this](https://medium.com/the-andela-way/build-and-publish-your-first-npm-package-a4daf0e2431) article on how to build and publish your first NPM package as a reference source.
